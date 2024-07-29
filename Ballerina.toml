@@ -1,0 +1,14 @@
+[package]
+org = "admin"
+name = "snapshot"
+version = "0.1.0"
+distribution = "2201.9.2"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org="ballerina"
+name="http"
+version="2.11.3"
+repository="local"
